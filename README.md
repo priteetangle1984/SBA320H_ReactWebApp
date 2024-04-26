@@ -1,4 +1,4 @@
---DECK OF CARDS API REACT PROJECT
+DECK OF CARDS API REACT PROJECT
 - This project is a React application that demonstrates various functionalities using the Deck of Cards API. It includes features such as drawing a card, shuffling a deck, viewing a deck, and more.
 
 TABLE OF CONTENTS
@@ -11,13 +11,11 @@ TABLE OF CONTENTS
 INSTALLATION
 - Clone the repository:
 - git clone (https://github.com/priteetangle1984/SBA320H_ReactWebApp)
-
-
-Navigate to the project directory:
+- Navigate to the project directory:
 - cd into project-directory
 
 
-Install dependencies:
+INSTALL DEPENDENCIES
 - npm install
 - npm install axios
 - npm install react-router-dom
@@ -27,7 +25,6 @@ Install dependencies:
 
 USAGE
 - To use the application, follow these steps:
-
 Start the development server:
 - npm run dev
 - Follow Link
