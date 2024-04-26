@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
-import Footer from "./components/Footer/Footer"; // Import the Footer component
+// import Footer from "./components/Footer/Footer"; // Import the Footer component
 import Home from "./pages/Home";
 import DrawCard from "./pages/DrawCard";
 import ShuffleDeck from "./pages/ShuffleDeck";
