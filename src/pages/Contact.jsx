@@ -1,37 +1,17 @@
 import React from "react";
-import CarList from "./CarList";
 
-const Cars = () => {
-  const cars = [
-    {
-      id: 1,
-      make: "Toyota",
-      model: "Camry",
-      price: 25000,
-      image: "toyota_camry.jpg",
-    },
-    {
-      id: 2,
-      make: "Honda",
-      model: "Civic",
-      price: 22000,
-      image: "honda_civic.jpg",
-    },
-    {
-      id: 3,
-      make: "Ford",
-      model: "Fusion",
-      price: 27000,
-      image: "ford_fusion.jpg",
-    },
-  ];
-
+const Contact = () => {
   return (
-    <div>
-      <h1>Our Cars</h1>
-      <CarList cars={cars} />
+    <div className="page-container">
+      <h1>Contact Page</h1>
+      <p>Contact us for any inquiries or support.</p>
+      <ul>
+        <li>Email: example@example.com</li>
+        <li>Phone: 123-456-7890</li>
+        {/* Add more contact information as needed */}
+      </ul>
     </div>
   );
 };
 
-export default Cars;
+export default Contact;
